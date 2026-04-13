@@ -144,4 +144,13 @@ tags:postTest_Fail
 * Status kodu "404" olmalı
 * Yanıt JSON'unda "message" değeri "Not Found" olmalı
 
+postTest_01Wait
+---
+tags:postTest_01Wait
+* GET isteği gönder "https://jsonplaceholder.typicode.com/posts/1"
+* Status kodu "200" olmalı
+* Bekleme yapılacak süre: "420" saniye
+* Yanıt JSON'unda "userId" değeri "1" olmalı
+* Yanıt JSON'unda "id" değeri "1" olmalı
+
 
